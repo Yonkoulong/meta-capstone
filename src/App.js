@@ -1,10 +1,13 @@
+import React from 'react';
+import { HomePage } from './pages/Home';  
 import './App.css';
+
 
 function App() {
   return (
-    <div className="App">
-     I'm a learner at Meta
-    </div>
+    <React.Fragment className="App">
+      <HomePage />
+    </React.Fragment>
   );
 }
 
